@@ -27,8 +27,8 @@ Lamborghini is a fully responsive landing page website, responsive for all devic
 
 ### Demo Screenshots
 
-![Landing Page Demo Screen](./assets/demo/demo1.png "Demo Screen")
-![Landing Page Demo Screen](./assets/demo/demo2.png "Demo Screen")
+![Landing Page Demo Screen](./assets/images/demo1.png "Demo Screen")
+![Landing Page Demo Screen](./assets/images/demo2.png "Demo Screen")
 
 ### Prerequisites
 
