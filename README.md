@@ -7,7 +7,7 @@
 <br />
 <br />
 
-<img src="" style="width: 155">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXB9hXB9GVuyHk93xSYZu-NEqJaTd7VQGAyg&usqp=CAU" style="width: 100">
 
 <h2 align="center">Lamborghini - Landing Page</h2>
 Lamborghini is a fully responsive landing page website, responsive for all devices, built using HTML5, CSS3, and JavaScript. Also used GSAP Library to create sliding effects when page loads.
@@ -27,7 +27,8 @@ Lamborghini is a fully responsive landing page website, responsive for all devic
 
 ### Demo Screenshots
 
-![Landing Page Demo Screen](./assets/images/demo1.png "Demo Screen")
+![Landing Page Demo Screen](./assets/images/demo1.png "Demo Screen") 
+<br />
 ![Landing Page Demo Screen](./assets/images/demo2.png "Demo Screen")
 
 ### Prerequisites
