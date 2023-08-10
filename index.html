@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description
+    "
+      content="🚀 Unleash Your Inner Speedster! Feel the Thrill of the #LamborghiniGallardo LP560 🏎️💨 Embrace the Power of Italian Engineering and Experience Unmatched Luxury. #Supercars #ItalianExcellence #SpeedDemon #LuxuryCars #DreamRide #CarEnthusiast 🤩🔥"
+    />
+
+    <title>Lamborghini | Dare & Discover</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-sec">
+      <nav class="nav bd-grid">
+        <div class="nav-logo">Lamborghini</div>
+
+        <div class="nav-menu" id="nav--menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Models</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Brand</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Store</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Experience</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-toggle" id="nav--toggle">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <main class="main-home">
+      <div class="home">
+        <h1 class="home-title">lamborghini</h1>
+
+        <div class="home-img">
+          <img src="./assets/images/lamborghini.png" alt="lamborghini-image" />
+        </div>
+        <div class="home-information">
+          <h2 class="home-subtitle">
+            <span class="lambo">lamborghini</span> <br />
+            Gallardo lp560
+          </h2>
+          <p class="home-description">
+            🚀 Unleash Your Inner Speed! Feel the Thrill of the Lamborghini
+            Gallardo LP560. #Experience Unmatched Luxury.
+          </p>
+        </div>
+        <div class="box">
+          <div class="box-medium box-dark">
+            <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+            <h3 class="box-medium-title d-inline">3.7</h3>
+            <span class="box-medium-description d-block">Sec.</span>
+            <span class="box-medium-detail">0-100 km/h</span>
+          </div>
+
+          <div>
+            <div class="box-small box-dark">
+              <ion-icon
+                name="trending-up-outline"
+                class="icon-box icon-box-small"
+              ></ion-icon>
+              <h3 class="box-small-title d-inline">325</h3>
+              <span class="box-small-description d-block">km/h</span>
+              <span class="box-small-detail">Top Speed</span>
+            </div>
+            <div class="box-small box-dark">
+              <ion-icon
+                name="car-sport-outline"
+                class="icon-box icon-box-small"
+              ></ion-icon>
+              <h3 class="box-small-title d-inline">8.000</h3>
+              <span class="box-small-description d-block">r.p.m</span>
+              <span class="box-small-detail">Power</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Script File -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Ion Icon CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+    <script>
+      //////////////////
+      // GSAP Animation
+
+      // home section animation
+      gsap.from(".home-title", { opacity: -1, duration: 1.5, delay: 1 });
+      gsap.from(".home-img", { opacity: 0, duration: 1, delay: 1, x: 100 });
+      gsap.from(".home-information", {
+        opacity: 0,
+        duration: 1,
+        delay: 1.2,
+        y: -30,
+      });
+
+      // box section animation
+      gsap.from(".box-medium", {
+        opacity: 0,
+        duration: 1.5,
+        delay: 1.3,
+        y: -50,
+      });
+      gsap.from(".box-small", {
+        opacity: 0,
+        duration: 1.5,
+        delay: 1.4,
+        y: -50,
+      });
+    </script>
+  </body>
+</html>
