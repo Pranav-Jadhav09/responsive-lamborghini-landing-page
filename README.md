@@ -12,7 +12,7 @@
 <h2 align="center">Lamborghini - Landing Page</h2>
 Lamborghini is a fully responsive landing page website, responsive for all devices, built using HTML5, CSS3, and JavaScript. Also used GSAP Library to create sliding effects when page loads.
 
-<a href="https://pranav-jadhav09.github.io/responsive-lambo-landing-page/"><strong>➥ Live Demo</strong></a>
+<a href="https://pranav-jadhav09.github.io/responsive-lamborghini-landing-page/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
